@@ -1,0 +1,42 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color: #e097dd;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:deeppink;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:purple;
+}
+
+#resultado1 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
