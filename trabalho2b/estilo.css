@@ -39,4 +39,8 @@ button:hover {
     font-size: 18px;
     color: #333;
     font-weight: bold;
+} 
+.invalid { 
+    border: 18px solid red;
+
 }
