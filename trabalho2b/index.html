@@ -1,71 +1,201 @@
 <html>
-    <head>
-        <title>C&aacute;lculos Aleat&oacute;rios</title>
-        <link rel="stylesheet" href="estilo.css">
-    </head>
-    <body> 
-        <h2>Quest&otilde;es Aleat&oacute;rias</h2>
 
-        <label for="encontretriangulo">Encontre o Tri&acirc;ngulo:</label>
-        
-        <label for="numx">X</label>
-        <input id="numx"> 
-        <label for="numy">Y</label>
-        <input id="numy">
-        <label for="numz">Z</label>
-        <input id="numz">
-        <button id="botao1">Calcular</button>
-        <p id="resultado1"></p>
-        
-        
-        <br><br>
+<head>
+    <title>C&aacute;lculos Aleat&oacute;rios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
 
-      
-        <label for="imposto">Calculadora de Imposto:</label>
+<body>
+    <h2>Quest&otilde;es Aleat&oacute;rias</h2>
 
-        <label>Ano do carro:</label>
-        <input id="ano">
-        <label>Valor de tabela (R$):</label>
-        <input id="valor">
-        <p id="resultado3"></p>
+    <label for="encontretriangulo">Encontre o Tri&acirc;ngulo:</label>
 
-        <button id="botao3">Calcular Imposto</button>
+    <label for="numx">X</label>
+    <input id="numx">
+    <label for="numy">Y</label>
+    <input id="numy">
+    <label for="numz">Z</label>
+    <input id="numz">
+    <button id="botao1">Calcular</button>
+    <p id="resultado1"></p>
+
+    <br>
+
+    <label for="imc">Calculadora IMC:</label>
+
+    <label for="peso">Peso:</label>
+    <input id="peso" type="text">
+    <label for="altura">Altura:</label>
+    <input id="altura" type="text">
+    <button id="botao2">Calcular IMC</button>
+    <p id="resultado2"></p>
+
+    <br>
+
+    <label for="imposto">Calculadora de Imposto:</label>
+
+    <label>Ano do carro:</label>
+    <input id="ano">
+    <label>Valor de tabela (R$):</label>
+    <input id="valor">
+    <p id="resultado3"></p>
+
+    <button id="botao3">Calcular Imposto</button>
+
+    <br>
+
+    <label for="salario">Calculadora de Salário:</label>
+
+    <br>
+
+    <table align="left" border="1" class="table">
+        <tr align="center" id="linha1">
+            <td>Código</td>
+            <td>Cargo</td>
+            <td>Percentual</td>
+        </tr>
+        <tr align="center" id="linha2">
+            <td>101</td>
+            <td>Gerente</td>
+            <td>10%</td>
+        </tr>
+        <tr align="center" id="linha3">
+            <td>102</td>
+            <td>Engenheiro</td>
+            <td>20%</td>
+        </tr>
+        <tr align="center" id="linha4">
+            <td>103</td>
+            <td>Técnico</td>
+            <td>30%</td>
+        </tr>
+        <tr align="center" id="linha5">
+            <td>X</td>
+            <td>Outro</td>
+            <td>40%</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <label>Código do cargo:</label>
+    <input id="cargo" type="text">
+    <label for="salario">Salário atual:</label>
+    <input id="salario" type="text">
+    <button id="botao4">Calcular novo salário</button>
+    <p id="resultado4"></p>
+
+    <br>
+
+    <label for="Crédito">Calcular Cr&eacute;dito Banc&aacute;rio:</label>
+
+    <label>Digite o Saldo M&eacute;dio:</label>
+    <input id="saldo">
+    <button id="botao5">Calcular</button>
+    <p id="resultado5"></p>
 
 
-        <br><br>
+    <br>
 
-        <label for="Crédito">Calcular Cr&eacute;dito Banc&aacute;rio:</label>
+    <label for="lanchonete">Calcular valor a ser pago pelo lanche:</label>
 
-        <label>Digite o Saldo M&eacute;dio:</label>
-        <input id="saldo">
-        <button id="botao5">Calcular</button>
-        <p id="resultado5"></p>
+    <br>
 
+    <table align="left" border="1" class="table">
+        <tr align="center" id="l1">
+            <td>Código</td>
+            <td>Produto</td>
+            <td>Preço</td>
+        </tr>
+        <tr align="center" id="l2">
+            <td>1</td>
+            <td>Cachorro quente</td>
+            <td>11,00</td>
+        </tr>
+        <tr align="center" id="l3">
+            <td>2</td>
+            <td>Bauru</td>
+            <td>8,50</td>
+        </tr>
+        <tr align="center" id="l4">
+            <td>3</td>
+            <td>Misto Quente</td>
+            <td>8,00</td>
+        </tr>
+        <tr align="center" id="l5">
+            <td>4</td>
+            <td>Hamburger</td>
+            <td>9,00</td>
+        </tr>
+        <tr align="center" id="l6">
+            <td>5</td>
+            <td>Cheeseburger</td>
+            <td>10,00</td>
+        </tr>
+        <tr align="center" id="l7">
+            <td>6</td>
+            <td>Refrigerante</td>
+            <td>4,50</td>
+        </tr>
+    </table>
 
-        <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-        <label for="sistemadevendas">Sistema de Vendas</label> 
+    <label>Código do item:</label>
+    <input id="codigo">
+    <label>Quantidade de itens</label>
+    <input id="quantidade">
+    <button id="botao6">Calcular valor</button>
+    <p id="resultado6"></p>
 
-        <br>
+    <br>
 
-         <input id="preco" placeholder="Digite o pre&#231;o do produto" required> 
-        
-        <br>
+    <label for="sistemadevendas">Sistema de Vendas</label>
 
-        <label>Condiç&otilde;es de Pagamento:</label>
-        <select id="pagamento">
-            <option value="a">&agrave; vista em dinheiro ou cheque</option>
-            <option value="b">&agrave; vista no cart&atilde;o de cr&eacute;dito</option>
-            <option value="c">Em duas vezes (sem juros)</option>
-            <option value="d">Em duas vezes (com juros)</option>
-        </select>
-        <button id="botao7">Calcular</button>
-        <p id="resultado7"></p>
+    <br>
 
+    <input id="preco" placeholder="Digite o pre&#231;o do produto" required>
 
+    <br>
 
+    <label>Condiç&otilde;es de Pagamento:</label>
+    <select id="pagamento">
+        <option value="a">&agrave; vista em dinheiro ou cheque</option>
+        <option value="b">&agrave; vista no cart&atilde;o de cr&eacute;dito</option>
+        <option value="c">Em duas vezes (sem juros)</option>
+        <option value="d">Em duas vezes (com juros)</option>
+    </select>
+    <button id="botao7">Calcular</button>
+    <p id="resultado7"></p>
 
-    
-    </body>
-    <script src="script.js"></script>
-</html> 
+    <br>
+
+    <label for="sistemadepagamentos">Sistema de Pagamentos:</label>
+
+    <label for="nivel">Nível do professor:</label>
+    <input id="nivel">
+    <label for="quantidadeaulas">Quantidade de horas na semana:</label>
+    <input id="quantidadeaulas">
+    <button id="botao8">Calcular salário</button>
+    <p id="resultado8"></p>
+
+</body>
+<script src="script.js"></script>
+
+</html>
+
